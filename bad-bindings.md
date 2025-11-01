@@ -24,7 +24,14 @@ A small Hamlet has survived being in the middle of 4 terrible regions thanks to 
 
 ## Explorer ##
 
-Offering high mobility and various devices that allow difficult terrain traversal possible, the explorer is the key to making the way around the map.
+Offering high mobility and various devices that allow difficult terrain traversal possible, the Explorer is the key to making the way around the map.
+
+The Explorer is a chipper human man that was a professional geologist and athlete hiking around the Hamlet before becoming merged with the Fighter and the Worker. While no good in a fight, the Explorer is adept at avoiding danger and navigating the wilderness.
+
+### Actions ###
+
+- **Pole Vault**: Allows the Explorer to jump great heights over small gaps, up ledges, and above enemies, moving the Explorer in a given direction at the same time.
+- **Grappling Hook**: Allows the Explorer to span large gaps so long as there is a hook point at the other side, moving quickly towards the hook point.
 
 ### Bindings ###
 
@@ -43,7 +50,7 @@ The Fighter is a gruff dwarven woman who was a travelling mercenary before becom
 - **Shield**: Requiring no maintenance, the shield is a defensive tool the Fighter will use automatically when moving away from an opponent. Lasting for a short time after movement, any attempt to attack the Fighter from the direction opposite of which she moved will be completely stopped.
 - **Spear**: Requiring no maintenance, the spear is a melee weapon that the Fighter will thrust out at anyone foolish enough to get to close. When wielded with her shield, it becomes very difficult to fight back. The spear can be thrust out in any direction the Fighter is not moving in, and extends one body-length out from her body. It can only hit one enemy at a time.
 - **Gun**: Requiring created bullets to maintain, the gun is a powerful ranged weapon that will kill most enemies in just a single shot. Built like a hand cannon, even the Fighter needs two hands to wield this unruly weapon (no shield or movement during use). However, she can use it in any direction once she stops moving and it will fire out in a line until it reaches a target (who will usually die).
-- **Dodge**: 
+- **Dodge**: The Fighter is meant to offer a slow but steady combat experience, without many movement options. The Dodge feature may be reallocated to the Explorer or removed.
 
 ### Bindings ###
 
@@ -109,8 +116,6 @@ The Player can freely navigate to the Hamlet, Forest, and Volcano from the Swamp
 
 ## Volcano ##
 
-(This area doesn't entirely match the top-down image I have for the game, and requires more thought.)
-
 The Volcano is North of the Hamlet. It is intended to be the third area the player explores, and will be the area where the player can build up the resources they've been lacking and practice their skills before the final area.
 
 The Volcano is difficult to navigate due to the limited footholds, lava flows, and occasional falling rocks. The Volcano features a mostly linear and narrow path snaking up a triangular mountain that will force a player to use all of the explorational tools at their disposal. There will be occasional attacks by eagles, and designated spots will have mountain lion(s). In addition, there will be a small number of areas covered in ash that will deplete the Player's life while they remain within it. The Volcano Sceptor piece will be at the top of the mountain.
@@ -118,6 +123,16 @@ The Volcano is difficult to navigate due to the limited footholds, lava flows, a
 There are no food or plant action points on the Volcano, but there is an abundance of mineral gathering action points.
 
 The Player can freely navigate to the Hamlet and the Swamp from the Volcano.
+
+### Note ###
+
+This area doesn't entirely match the top-down image I have for the game, and requires more thought.
+
+One idea is to use terraced terrain levels as shown [here](https://www.reddit.com/r/gamedesign/comments/10uuljp/how_do_you_add_verticality_to_a_top_down_game), having the player zig-zag up the mountain purposefully. This will have the effect of creating a maze for the player, frustrating their efforts to climb up as ladders, zig-zag climbing, and unique uses for the grappling hook and pole vault become necessary. Having this limit the player's movement after their reinforced understanding of movement from the Swamp may prove to be a challenging yet rewarding puzzle, or it could be a difficult and frustrating scene that ends up feeling like a waste of the player's time.
+
+An alternative idea is to use mesa'd terrain levels, where there are different "levels" to the mountain that can be pole-vaulted between. This will have the effect of allowing the player to more or less move freely on the mountain, with the maze elements coming from levels being to high up to pole vault to. However, this has 2 downsides. The first downside is from the intended player experience; doing this, the player will be trapped into a repetitive cycle of pole vaulting everywhere. While this could be alleviated with clever use of gaps, extreme level changes, and other level design elements, it would be more challenging to do so and may not have the effect of creating a maze. However, it would have the effect of impressing the idea of a steep Volcano to the player. The second downside is only a matter of programming. While there is no set deadline for this project, it was not intended to be a project of extreme length. Adding this element would provide for a unique programming challenge that may take upwards of 1 to 2 months to conquer, plus additional time for likely bugs and rebuilds that may be necessary. 
+
+At the current moment (11/1/2025), I am leaning towards the terraced terrain levels idea. However, I will hold on implementing these ideas until later in development when I am more comfortable and knowledgable with Godot and the Godot scripting language and its limitations.
 
 ## Wasteland ##
 
