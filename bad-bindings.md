@@ -39,6 +39,7 @@ The Explorer is a chipper halfling man that was a professional geologist and ath
 - Movement:             ABXY (Potential redo to Right thumbstick if actually just terrible)
 - Pole Vault:           Left Trigger
 - Grappling Hook:       Right Trigger
+- Dodge:                Right Thumbstick Click (Potential removal)
 
 ## Fighter ## 
 
@@ -55,7 +56,6 @@ The Fighter is a gruff dwarven woman who was a travelling mercenary before becom
 ### Bindings ###
 
 - Movement:             D-Pad
-- Dodge:                Right Thumbstick Click
 - Spear:                Move + ABXY
 - Gun:                  ABXY
 - Shield:               (Part of movement)
