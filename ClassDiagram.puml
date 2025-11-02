@@ -1,0 +1,63 @@
+@startuml
+' ------- UML PARAMETERS -------
+'skinparam groupInheritance 2
+
+' ------- PC'S AND ACTIONS -------
+package Player {
+  class Character {
+    - health
+    # inventory
+
+    + Damage()
+    + Heal()
+    - Die()
+  }
+
+  class Explorer {
+    - PoleVault()
+    - GrapplingHook()
+    - Dodge()
+    - Move()
+  }
+
+  class Fighter {
+    - Move()
+    - Spear()
+    - Gun()
+    - Shield()
+  }
+
+  class Worker {
+    - SwitchAction()
+    - BeginAction()
+    - SwitchMenuTabs()
+    - SwitchMenuItems()
+    - QuickTimeEvent() /' May be reallocated to a separate class. '/
+  }
+
+  Character <|-- Worker
+  Character <|-- Explorer
+  Character <|-- Fighter
+
+  ' Subject to heavy change depending once an increased understanding of Godot is achieved.
+  package Items {
+    class Inventory {
+      - size
+      - items
+
+      + UseItem(item)
+      + AddItem(item)
+    }
+
+    class Item {}
+
+    class Food {}
+    class Ore {}
+
+    Character *-Left- Inventory
+    Inventory o-- Item
+    Item <|-- Food
+    Item <|-- Ore
+  }
+}
+@enduml
