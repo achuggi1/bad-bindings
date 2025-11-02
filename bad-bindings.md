@@ -26,12 +26,13 @@ A small Hamlet has survived being in the middle of 4 terrible regions thanks to 
 
 Offering high mobility and various devices that allow difficult terrain traversal possible, the Explorer is the key to making the way around the map.
 
-The Explorer is a chipper human man that was a professional geologist and athlete hiking around the Hamlet before becoming merged with the Fighter and the Worker. While no good in a fight, the Explorer is adept at avoiding danger and navigating the wilderness.
+The Explorer is a chipper halfling man that was a professional geologist and athlete hiking around the Hamlet before becoming merged with the Fighter and the Worker. While no good in a fight, the Explorer is adept at avoiding danger and navigating the wilderness.
 
 ### Actions ###
 
 - **Pole Vault**: Allows the Explorer to jump great heights over small gaps, up ledges, and above enemies, moving the Explorer in a given direction at the same time.
 - **Grappling Hook**: Allows the Explorer to span large gaps so long as there is a hook point at the other side, moving quickly towards the hook point.
+- **Dodge**: May be removed from the game.
 
 ### Bindings ###
 
@@ -50,7 +51,6 @@ The Fighter is a gruff dwarven woman who was a travelling mercenary before becom
 - **Shield**: Requiring no maintenance, the shield is a defensive tool the Fighter will use automatically when moving away from an opponent. Lasting for a short time after movement, any attempt to attack the Fighter from the direction opposite of which she moved will be completely stopped.
 - **Spear**: Requiring no maintenance, the spear is a melee weapon that the Fighter will thrust out at anyone foolish enough to get to close. When wielded with her shield, it becomes very difficult to fight back. The spear can be thrust out in any direction the Fighter is not moving in, and extends one body-length out from her body. It can only hit one enemy at a time.
 - **Gun**: Requiring created bullets to maintain, the gun is a powerful ranged weapon that will kill most enemies in just a single shot. Built like a hand cannon, even the Fighter needs two hands to wield this unruly weapon (no shield or movement during use). However, she can use it in any direction once she stops moving and it will fire out in a line until it reaches a target (who will usually die).
-- **Dodge**: The Fighter is meant to offer a slow but steady combat experience, without many movement options. The Dodge feature may be reallocated to the Explorer or removed.
 
 ### Bindings ###
 
@@ -64,12 +64,25 @@ The Fighter is a gruff dwarven woman who was a travelling mercenary before becom
 
 Offering high resource interactability, the worker is vital in gathering resources and using them.
 
+The Worker is a large, warm, loud human man that works and laughs with gusto. Unable to move after the magics that merged the characters, the Worker relies on the Explorer and Fighter for getting them to and from Action Points, and protecting them against danger. In return, the Worker provides the invaluable services of food preparation and smithing.
+
 ### Gathering/Creating ###
 
 The Worker can begin gathering or creating by being located one or more action points. These action points can be navigated around with and began. Once begun, the Worker can then interact as follows:
 
 - **Gathering**: a simple quick-time event that yields resources.
-- **Creating**: A menu-based system with tabs that each have a set of quick-time events that take resources and yield items.
+- **Creating**: A menu-based system with tabs that each have a set of quick-time events that take resources and yield items. 
+
+### Action Points ###
+
+Gathering:
+- Plant gathering: Provides a ready-to-be eaten food source that can be cooked for greater effect. This may be a fruit or a vegetable, which both have 1 healing value.
+- Fishing: Provides fish. Fish must be cooked to be eaten. For the purposes of cooking, the raw healing value of fish is 2.
+- Minerals: Provides ore to be used in crafting.
+
+Creating:
+- Kitchen: Located in the Hamlet's restaurant. Allows food items to be cooked into recipes that have differing benefits. Cooking an item by itself increases the health gained from eating by 1. Cooking 2 different items together combine their raw healing effect and add 3 healing. Cooking all 3 food items together combine their raw healing effect and add 5 healing. 
+- Smithy: Located in the Hamlet's forge. Allows ore to be crafted into bullets (more items may be added later, such as armor or more powerful weapons).
 
 ### Bindings ###
 
@@ -78,6 +91,10 @@ The Worker can begin gathering or creating by being located one or more action p
 - Switch menu tabs:     Bumpers
 - Switch menu items:    Triggers
 - Quick time event:     Any
+
+## Shared Inventory ##
+
+Being merged into 1, the 3 characters share an inventory. This inventory has a maximum space to avoid players from farming an abundance of action items without using them, and to prevent them from having an over-abundance of healing items. This will also encourage exploring all action points for the best available healing items, and having proper inventory management so that the Fighter can continue to have bullets.
 
 # The Map #
 
