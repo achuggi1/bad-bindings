@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0y41xh7cd5ed"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Player/Characters/fighter.gd" id="1_tn3dp"]
+[ext_resource type="PackedScene" uid="uid://caak1j1crfshb" path="res://Scenes/Shapes/Circle.tscn" id="2_gj8r1"]
+
+[node name="Fighter" type="Area2D"]
+script = ExtResource("1_tn3dp")
+
+[node name="Circle" parent="." instance=ExtResource("2_gj8r1")]

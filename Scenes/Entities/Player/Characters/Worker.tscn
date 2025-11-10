@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds0yqr317mtfd"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Player/Characters/worker.gd" id="1_ok1gc"]
+[ext_resource type="PackedScene" uid="uid://bkt48ehod1obg" path="res://Scenes/Shapes/Triangle.tscn" id="2_sd51u"]
+
+[node name="Worker" type="Area2D"]
+script = ExtResource("1_ok1gc")
+
+[node name="Triangle" parent="." instance=ExtResource("2_sd51u")]
