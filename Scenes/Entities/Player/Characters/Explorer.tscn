@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://drg8s1jgy0no1"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Player/Characters/explorer.gd" id="1_n5qt7"]
+[ext_resource type="PackedScene" uid="uid://ca1cfi55rmdml" path="res://Scenes/Shapes/Square.tscn" id="2_53gx2"]
+
+[node name="Explorer" type="Area2D"]
+script = ExtResource("1_n5qt7")
+metadata/_edit_group_ = true
+
+[node name="Square" parent="." instance=ExtResource("2_53gx2")]

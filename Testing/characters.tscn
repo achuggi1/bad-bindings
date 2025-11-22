@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cytmggsekq35"]
-
-[ext_resource type="PackedScene" uid="uid://ggvm68dru6yq" path="res://Entities/Player/Character.tscn" id="1_vamsv"]
-
-[node name="Characters" type="Node2D"]
-
-[node name="Character" parent="." instance=ExtResource("1_vamsv")]
-position = Vector2(293, 158)

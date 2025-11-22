@@ -1,0 +1,14 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0k8l0jlhbsgs"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Player/player.gd" id="1_vukb8"]
+[ext_resource type="PackedScene" uid="uid://d0y41xh7cd5ed" path="res://Scenes/Entities/Player/Characters/Fighter.tscn" id="2_qn6ve"]
+[ext_resource type="PackedScene" uid="uid://drg8s1jgy0no1" path="res://Scenes/Entities/Player/Characters/Explorer.tscn" id="3_ufhp1"]
+[ext_resource type="PackedScene" uid="uid://ds0yqr317mtfd" path="res://Scenes/Entities/Player/Characters/Worker.tscn" id="4_slaxi"]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_vukb8")
+explorer = ExtResource("3_ufhp1")
+fighter = ExtResource("2_qn6ve")
+worker = ExtResource("4_slaxi")
+
+[node name="Camera2D" type="Camera2D" parent="."]

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://h4sjahuus3qw"]
+
+[ext_resource type="PackedScene" uid="uid://c0k8l0jlhbsgs" path="res://Scenes/Entities/Player/Player.tscn" id="1_3gss1"]
+[ext_resource type="PackedScene" uid="uid://caak1j1crfshb" path="res://Scenes/Shapes/Circle.tscn" id="2_2intf"]
+[ext_resource type="PackedScene" uid="uid://ca1cfi55rmdml" path="res://Scenes/Shapes/Square.tscn" id="3_4px1u"]
+[ext_resource type="PackedScene" uid="uid://bkt48ehod1obg" path="res://Scenes/Shapes/Triangle.tscn" id="4_cssga"]
+
+[node name="PlayerMovement" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_3gss1")]
+position = Vector2(309, 187)
+
+[node name="Circle" parent="." instance=ExtResource("2_2intf")]
+position = Vector2(181, 346)
+
+[node name="Triangle" parent="." instance=ExtResource("3_4px1u")]
+position = Vector2(654, 192)
+
+[node name="Triangle2" parent="." instance=ExtResource("4_cssga")]
+position = Vector2(512, 428)

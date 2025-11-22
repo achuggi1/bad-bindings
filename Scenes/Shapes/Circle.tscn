@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://caak1j1crfshb"]
+
+[ext_resource type="Script" path="res://Scenes/Shapes/circle.gd" id="1_yrr3i"]
+
+[node name="Circle" type="Area2D"]
+script = ExtResource("1_yrr3i")
+radius = 75.0
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]

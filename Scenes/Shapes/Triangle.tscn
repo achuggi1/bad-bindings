@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkt48ehod1obg"]
+
+[ext_resource type="Script" path="res://Scenes/Shapes/simple_shape.gd" id="1_d0htt"]
+
+[node name="Triangle" type="Area2D"]
+script = ExtResource("1_d0htt")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(0, -1)
+polygon = PackedVector2Array(-64, 65, 0, -63, 64, 65)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(0, -1)
