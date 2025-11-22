@@ -1,9 +1,14 @@
 ## Represents any of the 3 individual characters the Player can be.
-@abstract class_name Character
+@abstract
+class_name Character extends Area2D
+
+#region VARIABLES
 
 @export var speed = 400
 
 @onready var player = get_parent()
+
+#endregion VARIABLES
 
 func _process(delta: float) -> void:
 	move(delta)
