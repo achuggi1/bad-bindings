@@ -1,4 +1,5 @@
-extends Area2D
+## Represents any of the 3 individual characters the Player can be.
+@abstract class_name Character
 
 @export var speed = 400
 

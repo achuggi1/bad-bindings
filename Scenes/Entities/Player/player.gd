@@ -53,7 +53,7 @@ func switch_character(name: String = ""):
 	
 	active_character = new_character
 	add_child(active_character)
-	active_character.position = position
+	active_character.position = Vector2.ZERO
 
 func damage(amount: int):
 	if(amount <= 0):

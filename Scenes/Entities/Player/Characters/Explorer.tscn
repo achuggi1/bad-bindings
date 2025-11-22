@@ -7,4 +7,4 @@
 script = ExtResource("1_n5qt7")
 metadata/_edit_group_ = true
 
-[node name="Triangle" parent="." instance=ExtResource("2_53gx2")]
+[node name="Square" parent="." instance=ExtResource("2_53gx2")]

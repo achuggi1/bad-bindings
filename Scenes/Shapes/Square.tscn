@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scenes/Shapes/simple_shape.gd" id="1_0qciq"]
 
-[node name="Triangle" type="Area2D"]
+[node name="Square" type="Area2D"]
 script = ExtResource("1_0qciq")
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
