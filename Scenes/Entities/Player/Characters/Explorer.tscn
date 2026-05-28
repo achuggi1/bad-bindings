@@ -1,10 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://drg8s1jgy0no1"]
+[gd_scene load_steps=4 format=3 uid="uid://drg8s1jgy0no1"]
 
-[ext_resource type="Script" path="res://Scenes/Entities/Player/Characters/explorer.gd" id="1_n5qt7"]
-[ext_resource type="PackedScene" uid="uid://ca1cfi55rmdml" path="res://Scenes/Shapes/Square.tscn" id="2_53gx2"]
+[ext_resource type="Script" uid="uid://bsavavfss1axy" path="res://Scenes/Entities/Player/Characters/explorer.gd" id="1_n5qt7"]
+[ext_resource type="Texture2D" uid="uid://bdtj6eujgfitm" path="res://Assets/Imports/kenny_roguelike-characters/Spritesheet/roguelikeChar_transparent.png" id="2_ryivr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7yohk"]
+atlas = ExtResource("2_ryivr")
+region = Rect2(17, 136, 16, 16)
 
 [node name="Explorer" type="Area2D"]
 script = ExtResource("1_n5qt7")
 metadata/_edit_group_ = true
 
-[node name="Square" parent="." instance=ExtResource("2_53gx2")]
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_7yohk")
