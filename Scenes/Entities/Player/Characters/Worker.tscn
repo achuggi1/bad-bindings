@@ -1,9 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://ds0yqr317mtfd"]
+[gd_scene load_steps=4 format=3 uid="uid://ds0yqr317mtfd"]
 
-[ext_resource type="Script" path="res://Scenes/Entities/Player/Characters/worker.gd" id="1_ok1gc"]
-[ext_resource type="PackedScene" uid="uid://bkt48ehod1obg" path="res://Scenes/Shapes/Triangle.tscn" id="2_sd51u"]
+[ext_resource type="Script" uid="uid://bel26vhab76gf" path="res://Scenes/Entities/Player/Characters/worker.gd" id="1_ok1gc"]
+[ext_resource type="Texture2D" uid="uid://bdtj6eujgfitm" path="res://Assets/Imports/kenny_roguelike-characters/Spritesheet/roguelikeChar_transparent.png" id="2_7mtuu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11gun"]
+atlas = ExtResource("2_7mtuu")
+region = Rect2(0, 102, 16, 16)
 
 [node name="Worker" type="Area2D"]
 script = ExtResource("1_ok1gc")
 
-[node name="Triangle" parent="." instance=ExtResource("2_sd51u")]
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_11gun")
